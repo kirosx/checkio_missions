@@ -2,6 +2,11 @@ class Warrior:
     hp = 50
     attack = 5
     is_alive = True
+    
+class Defender(Warrior):
+    health = 60
+    attack = 3
+    defense = 2
 
 class Knight(Warrior):
     attack = 7
